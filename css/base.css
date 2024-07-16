@@ -1,0 +1,35 @@
+:root{
+    --cor-de-fundo: #ffffff;
+    --cor-de-link: #000000;
+    --cor-da-caixa: #555555;
+    --cor-da-fonte:#000000;
+    --cor-de-fundo-azul:#3379d3;
+    --cor-azul: #1ef778;
+    --cor-aviso: #df2525;
+    --cor--placeholder: #852525;
+    --form-borda: #ffffff;
+    --tipo-da-fonte:'Raleway',sans-serif;
+    
+ }
+ body {
+     box-sizing: border-box;
+     background-color: var(--cor-de-fundo) ;
+     font-family: var(--tipo-da-fonte);
+     margin: 0;
+     padding: 0;
+     line-height: 1;
+ }
+ ol, ul,li {
+     list-style: none;
+ }
+ a{
+     text-decoration: none;
+     color: var(--cor-de-link);
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 

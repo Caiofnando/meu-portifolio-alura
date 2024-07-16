@@ -1,0 +1,94 @@
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo na horizontal */
+}
+
+.experiencia__titulo {
+    color: var(--cor-da-fonte);
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.experiencia__caixa {
+    display: flex;
+    align-items: flex-start; /* Alinha as caixas ao topo */
+    margin-bottom: 2rem;
+    max-width: 100%; /* Evita que as caixas excedam o tamanho máximo */
+}
+
+.experiencia__imagem {
+    flex-shrink: 0; /* Evita que a imagem diminua */
+    margin-right: 1rem; /* Espaçamento entre imagem e conteúdo */
+}
+
+.experiencia__conteudo {
+    flex: 1; /* Faz com que o conteúdo ocupe o espaço restante */
+}
+
+.experiencia__nome {
+    color: var(--cor-da-fonte);
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    margin-top: 0; /* Remove o espaçamento superior padrão */
+}
+
+.experiencia__projeto {
+    color: var(--cor-da-fonte);
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    margin-bottom: 1rem; /* Espaçamento inferior */
+}
+
+}
+
+.experiencia__botao--repositorio:hover,
+.experiencia__botao--demo:hover {
+    background-color: var(--cor-azul-hover);
+}
+
+@media screen and (min-width: 768px) {
+    .experiencia__caixa {
+        flex-direction: row; /* Altera para linha em telas maiores */
+        justify-content: flex-start; /* Alinha as caixas à esquerda */
+    }
+
+    .experiencia__imagem img {
+        height: 144px; /* Ajusta a altura das imagens */
+        width: auto; /* Largura ajustável conforme a altura */
+    }
+
+    .experiencia__conteudo {
+        padding: 0 1rem; /* Espaçamento interno */
+    }
+
+    .experiencia__botoes {
+        display: flex; /* Alinha os botões na mesma linha */
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .experiencia__titulo {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .experiencia__caixa {
+        margin-bottom: 3rem; /* Aumenta o espaçamento inferior entre as caixas */
+    }
+
+    .experiencia__nome {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+
+    .experiencia__projeto {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+}

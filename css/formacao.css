@@ -1,0 +1,81 @@
+.formacao {
+    background-color: var(--cor-de-fundo-azul);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    padding: 2rem 0;
+}
+
+.formacao__titulo {
+    color: var(--cor-da-fonte);
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.formacao__img {
+    width: 296px;
+    height: 118px;
+    background-image: url('C:/Users/Caio/Downloads/challenge-one-portfolio-br-master/challenge-one-portfolio-br-master/assets/alura.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 1rem;
+}
+
+.formacao__nome {
+    color: var(--cor-da-fonte);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.formacao__cursos {
+    color: var(--cor-da-fonte);
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    list-style: disc;
+    margin-left: 1rem;
+}
+
+.formacao_cursos_sub {
+    color: var(--cor-da-fonte);
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    list-style: disc;
+    margin-left: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .formacao__titulo {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .formacao__img {
+        width: 400px;
+        height: 150px;
+        background-image: url('C:/Users/Caio/Downloads/challenge-one-portfolio-br-master/challenge-one-portfolio-br-master/assets/caio-portifolio.jpeg');
+    }
+    .formacao__nome {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+    .formacao__cursos,
+    .formacao_cursos_sub {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+}
+    
+
+   
+
+    
+
